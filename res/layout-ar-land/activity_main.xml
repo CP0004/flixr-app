@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/style_background_app"
+    tools:context=".ui.MainActivity">
+
+    <!--View Categorises -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/Main_rv_view_categorises"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_5sdp"
+        android:layout_toEndOf="@id/Main_btn_actionbar_bottom_land" />
+
+    <ImageView
+        android:id="@+id/Main_img_empty_categorises"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_200sdp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="@dimen/_3sdp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_empty_categorises" />
+
+    <!--Actionbar Bottom -->
+    <com.google.android.material.navigationrail.NavigationRailView
+        android:id="@+id/Main_btn_actionbar_bottom_land"
+        android:layout_width="@dimen/_35sdp"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/style_actionbar_bottom_rtl"
+        android:visibility="visible"
+        app:itemIconTint="@color/style_actionbar_bottom_select"
+        app:itemTextColor="@color/style_actionbar_bottom_select"
+        app:menu="@menu/actionbar_bottom"
+        app:menuGravity="center" />
+
+</RelativeLayout>

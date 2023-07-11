@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Flixr</string>
+    <string name="Text_hint_loading_categorises">"الرجاء الانتظار و عدم الخروج من التطبيق حتا انتهاء العملية ... يمكن للعملية ان تستغرق بعض الوقت و ان كان الجهاز الخاص بك ذو مواصفات بسيطة من الممكن ان ياخذ من ثلاثة الي عشر دقائق انتظار "</string>
+    <string name="Text_create_by">من</string>
+    <string name="Text_cp">CP</string>
+    <string name="Text_2023">2023©</string>
+    <string name="Text_search">بحث</string>
+    <string name="Text_hint_search">بحث...</string>
+    <string name="Text_info">يمكنك التواصل معي على ان كان هنالك مشكلة او استفسار بخصوص التطبيق على منصات التوصل ادناه</string>
+    <string name="Text_movie">افلام</string>
+    <string name="Text_series">مسلسلات</string>
+    <string name="Text_tv">قنوات</string>
+    <string name="Text_link_invald">هنالك خلل الرجاء الدخول الي التطبيق في وقت لاحق</string>
+    <string name="Text_server_excepiton">هنالك خلل في الخادم االرجاء المحاولة في وقت لاحق</string>
+    <string name="Text_error">هنالك خطأ في شبكة الواي فاي او من جهازك الراء التحقق</string>
+    <string name="Text_server_maintenance">"هنالك صيانة بتطبيق الرجاء المحاولة في وقت لاحق "</string>
+    <string name="Text_server_down">"التطبيق متوقف حاليا "</string>
+    <string name="Text_update_app">"الرجاء تحديث التطبيق "</string>
+</resources>

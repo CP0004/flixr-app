@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Style App-->
+    <color name="black">#FF000000</color>
+    <color name="white">#4D2D6B</color>
+    <color name="color_ActionbarUp">#E6E6E6</color>
+    <color name="color_Primary">#FFA001</color>
+    <color name="color_Loading">#FFFFFF</color>
+    <color name="color_Teal">#FFFFFF</color>
+
+    <!--Background App-->
+    <color name="color_background_app_start">#F0F0F0</color>
+    <color name="color_background_app_end">#E6E6E6</color>
+
+    <!--Background card-->
+    <color name="color_background_card">#F0F0F0</color>
+
+    <!--Actionbar Select-->
+    <color name="color_actionbar_bottom_select_true">#FFA001</color>
+    <color name="color_actionbar_bottom_select_false">#505050</color>
+
+    <!--Stroke-->
+    <color name="color_stroke">#141414</color>
+
+    <!--Card Shadow -->
+    <color name="color_card_shadow_start">#CC000000</color>
+    <color name="color_card_shadow_end">#1A000000</color>
+
+    <!--Image-->
+    <color name="color_image_background_app">#FFA001</color>
+    <color name="color_image_background_card">#505050</color>
+
+    <!--Dialog-->
+    <color name="color_Dialog">#FFA001</color>
+
+    <!--Text-->
+    <color name="color_text_background_app">#FFA001</color>
+    <color name="color_text_background_card">#505050</color>
+    <color name="color_text_background_card_shadow">#FFFFFF</color>
+
+    <!--Hint-->
+    <color name="color_hint">#80141414</color>
+
+</resources>

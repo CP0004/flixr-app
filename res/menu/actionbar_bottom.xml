@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Menu_btn_Movie"
+        android:icon="@drawable/ic_movie"
+        android:title="" />
+
+    <item
+        android:id="@+id/Menu_btn_Series"
+        android:icon="@drawable/ic_series"
+        android:title="" />
+
+    <item
+        android:id="@+id/Menu_btn_Tv"
+        android:icon="@drawable/ic_tv"
+        android:title="" />
+
+    <item
+        android:id="@+id/Menu_btn_search"
+        android:icon="@drawable/ic_search"
+        android:title="" />
+
+    <item
+        android:id="@+id/Menu_btn_setting"
+        android:icon="@drawable/ic_setting"
+        android:title="" />
+
+</menu>

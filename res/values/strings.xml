@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Flixr</string>
+    <string name="Text_hint_loading_categorises">Please wait and do not exit the application until the process is completed ... The process may take some time, and if your device has simple specifications, it may take from three to ten minutes to wait</string>
+    <string name="Text_create_by">By</string>
+    <string name="Text_cp">CP</string>
+    <string name="Text_2023">©2023</string>
+    <string name="Text_search">Search</string>
+    <string name="Text_hint_search">Search...</string>
+    <string name="Text_info">You can contact me if there is a problem or inquiry regarding the application on the communication platforms below</string>
+    <string name="Text_movie">Movie</string>
+    <string name="Text_series">Series</string>
+    <string name="Text_tv">Tv</string>
+    <string name="Text_link_invald">There is a bug, please enter the application at a later time</string>
+    <string name="Text_server_excepiton">There was a problem with the server, please try again later</string>
+    <string name="Text_error">There is an error in the Wi-Fi network or from your device, please check</string>
+    <string name="Text_server_maintenance">The application is under maintenance, please try again later</string>
+    <string name="Text_server_down">The application is currently suspended</string>
+    <string name="Text_update_app">Please update the app</string>
+</resources>

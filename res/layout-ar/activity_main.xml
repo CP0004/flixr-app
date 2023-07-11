@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/style_background_app"
+    tools:context=".ui.MainActivity">
+
+    <!--View Categorises -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/Main_rv_view_categorises"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/Main_btn_actionbar_bottom"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_5sdp" />
+
+    <ImageView
+        android:id="@+id/Main_img_empty_categorises"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_200sdp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="@dimen/_3sdp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_empty_categorises" />
+
+    <!--Actionbar Bottom -->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/Main_btn_actionbar_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/style_actionbar_bottom"
+        android:visibility="visible"
+        app:itemIconTint="@color/style_actionbar_bottom_select"
+        app:itemTextColor="@color/style_actionbar_bottom_select"
+        app:menu="@menu/actionbar_bottom" />
+
+</RelativeLayout>
